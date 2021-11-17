@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c0628a0-2be4-4ce7-a880-54648fe4efa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/laojiu/hdfs/HdfsClientIODemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectLogs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectLogs/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectLogs/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectLogs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectLogs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectLogs/CollectLogs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectLogs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectLogs/src/main/resources/hdfs-site.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laojiu/hdfs/HdfsClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laojiu/hdfs/HdfsClientDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hdfs-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hdfs-site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/laojiu/hdfs/HdfsClientDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laojiu/hdfs/HdfsClientDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,7 @@
       <workItem from="1636697659929" duration="10186000" />
       <workItem from="1636711742593" duration="4393000" />
       <workItem from="1636802236664" duration="1025000" />
-      <workItem from="1637133504362" duration="2801000" />
+      <workItem from="1637133504362" duration="3708000" />
     </task>
     <servers />
   </component>
@@ -169,26 +169,39 @@
       <screen x="1920" y="-1" width="1920" height="1040" />
     </state>
     <state x="2472" y="181" key="#Notifications/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1636639670891" />
-    <state width="1877" height="192" key="GridCell.Tab.0.bottom" timestamp="1637136158025">
-      <screen x="1920" y="-1" width="1920" height="1040" />
+    <state x="739" y="268" key="FileChooserDialogImpl" timestamp="1637137071843">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="739" y="268" key="FileChooserDialogImpl/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637137071843" />
+    <state width="1860" height="273" key="GridCell.Tab.0.bottom" timestamp="1637137246078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="273" key="GridCell.Tab.0.bottom/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637137246078" />
     <state width="1877" height="192" key="GridCell.Tab.0.bottom/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1637136158025" />
-    <state width="1877" height="192" key="GridCell.Tab.0.center" timestamp="1637136158024">
-      <screen x="1920" y="-1" width="1920" height="1040" />
+    <state width="1860" height="273" key="GridCell.Tab.0.center" timestamp="1637137246078">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1860" height="273" key="GridCell.Tab.0.center/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637137246078" />
     <state width="1877" height="192" key="GridCell.Tab.0.center/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1637136158024" />
-    <state width="1877" height="192" key="GridCell.Tab.0.left" timestamp="1637136158024">
-      <screen x="1920" y="-1" width="1920" height="1040" />
+    <state width="1860" height="273" key="GridCell.Tab.0.left" timestamp="1637137246078">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1860" height="273" key="GridCell.Tab.0.left/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637137246078" />
     <state width="1877" height="192" key="GridCell.Tab.0.left/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1637136158024" />
-    <state width="1877" height="192" key="GridCell.Tab.0.right" timestamp="1637136158024">
-      <screen x="1920" y="-1" width="1920" height="1040" />
+    <state width="1860" height="273" key="GridCell.Tab.0.right" timestamp="1637137246078">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1860" height="273" key="GridCell.Tab.0.right/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637137246078" />
     <state width="1877" height="192" key="GridCell.Tab.0.right/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1637136158024" />
     <state x="2381" y="164" key="SettingsEditor" timestamp="1636712382475">
       <screen x="1920" y="-1" width="1920" height="1040" />
     </state>
     <state x="2381" y="164" key="SettingsEditor/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1636712382475" />
+    <state x="334" y="215" key="new project wizard" timestamp="1637137108722">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="215" key="new project wizard/1920.-1.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637137108722" />
+    <state x="2254" y="214" key="new project wizard/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1637136907223" />
     <state x="2543" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1636708965582">
       <screen x="1920" y="-1" width="1920" height="1040" />
     </state>
