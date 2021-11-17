@@ -5,6 +5,12 @@
     <!--设置当前hdfs副本数量-->
     <property>
         <name>dfs.replication</name>
-        <value>2</value>
+        <value>3</value>
+    </property>
+
+    <!--设置主机使用真实地址-->
+    <property>
+        <name>dfs.client.use.datanode.hostname</name>
+        <value>true</value>
     </property>
 </configuration>

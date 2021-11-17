@@ -162,4 +162,5 @@ public class HdfsClientDemo {
              System.out.println("当前的"+(flag?"文件":"文件夹")+"为："+ name +"\t");
         }
     }
+
 }

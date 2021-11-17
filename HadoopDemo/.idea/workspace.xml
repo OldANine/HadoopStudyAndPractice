@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c0628a0-2be4-4ce7-a880-54648fe4efa8" name="Default Changelist" comment="" />
+    <list default="true" id="8c0628a0-2be4-4ce7-a880-54648fe4efa8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/laojiu/hdfs/HdfsClientIODemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laojiu/hdfs/HdfsClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laojiu/hdfs/HdfsClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hdfs-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hdfs-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/laojiu/hdfs/HdfsClientDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/laojiu/hdfs/HdfsClientDemo.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +24,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="HdfsClientIODemo.putFileToHdfs" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectId" id="20mAM2GyyhEooxGJgCrsSBofFSZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,62 +43,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="JUnit.HdfsClientDemo.copyFromLocalToHdfs">
-    <configuration name="HdfsClientDemo.copyFromHdfsTolocal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HadoopDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.laojiu.hdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.laojiu.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.laojiu.hdfs.HdfsClientDemo" />
-      <option name="METHOD_NAME" value="copyFromHdfsTolocal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HdfsClientDemo.copyFromLocalToHdfs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HadoopDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.laojiu.hdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.laojiu.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.laojiu.hdfs.HdfsClientDemo" />
-      <option name="METHOD_NAME" value="copyFromLocalToHdfs" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HdfsClientDemo.deletFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HadoopDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.laojiu.hdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.laojiu.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.laojiu.hdfs.HdfsClientDemo" />
-      <option name="METHOD_NAME" value="deletFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.HdfsClientIODemo.readFileSeek">
     <configuration name="HdfsClientDemo.isFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HadoopDemo" />
       <extension name="coverage">
@@ -94,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HdfsClientDemo.listFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HdfsClientIODemo.getFileFromHdfs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HadoopDemo" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +78,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.laojiu.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.laojiu.hdfs.HdfsClientDemo" />
-      <option name="METHOD_NAME" value="listFiles" />
+      <option name="MAIN_CLASS_NAME" value="com.laojiu.hdfs.HdfsClientIODemo" />
+      <option name="METHOD_NAME" value="getFileFromHdfs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsClientIODemo.mkdirs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HadoopDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laojiu.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.laojiu.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.laojiu.hdfs.HdfsClientIODemo" />
+      <option name="METHOD_NAME" value="mkdirs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsClientIODemo.putFileToHdfs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HadoopDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laojiu.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.laojiu.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.laojiu.hdfs.HdfsClientIODemo" />
+      <option name="METHOD_NAME" value="putFileToHdfs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsClientIODemo.readFileSeek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HadoopDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laojiu.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.laojiu.hdfs" />
+      <option name="MAIN_CLASS_NAME" value="com.laojiu.hdfs.HdfsClientIODemo" />
+      <option name="METHOD_NAME" value="readFileSeek" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HdfsClientDemo.copyFromLocalToHdfs" />
+        <item itemvalue="JUnit.HdfsClientIODemo.readFileSeek" />
+        <item itemvalue="JUnit.HdfsClientIODemo.getFileFromHdfs" />
+        <item itemvalue="JUnit.HdfsClientIODemo.putFileToHdfs" />
+        <item itemvalue="JUnit.HdfsClientIODemo.mkdirs" />
         <item itemvalue="JUnit.HdfsClientDemo.isFile" />
-        <item itemvalue="JUnit.HdfsClientDemo.listFiles" />
-        <item itemvalue="JUnit.HdfsClientDemo.deletFile" />
-        <item itemvalue="JUnit.HdfsClientDemo.copyFromHdfsTolocal" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +155,9 @@
       <updated>1636639337059</updated>
       <workItem from="1636639341744" duration="2442000" />
       <workItem from="1636697659929" duration="10186000" />
+      <workItem from="1636711742593" duration="4393000" />
+      <workItem from="1636802236664" duration="1025000" />
+      <workItem from="1637133504362" duration="2801000" />
     </task>
     <servers />
   </component>
@@ -143,26 +169,26 @@
       <screen x="1920" y="-1" width="1920" height="1040" />
     </state>
     <state x="2472" y="181" key="#Notifications/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1636639670891" />
-    <state width="1860" height="41" key="GridCell.Tab.0.bottom" timestamp="1636710154794">
+    <state width="1877" height="192" key="GridCell.Tab.0.bottom" timestamp="1637136158025">
       <screen x="1920" y="-1" width="1920" height="1040" />
     </state>
-    <state width="1860" height="41" key="GridCell.Tab.0.bottom/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1636710154794" />
-    <state width="1860" height="41" key="GridCell.Tab.0.center" timestamp="1636710154794">
+    <state width="1877" height="192" key="GridCell.Tab.0.bottom/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1637136158025" />
+    <state width="1877" height="192" key="GridCell.Tab.0.center" timestamp="1637136158024">
       <screen x="1920" y="-1" width="1920" height="1040" />
     </state>
-    <state width="1860" height="41" key="GridCell.Tab.0.center/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1636710154794" />
-    <state width="1860" height="41" key="GridCell.Tab.0.left" timestamp="1636710154794">
+    <state width="1877" height="192" key="GridCell.Tab.0.center/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1637136158024" />
+    <state width="1877" height="192" key="GridCell.Tab.0.left" timestamp="1637136158024">
       <screen x="1920" y="-1" width="1920" height="1040" />
     </state>
-    <state width="1860" height="41" key="GridCell.Tab.0.left/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1636710154794" />
-    <state width="1860" height="41" key="GridCell.Tab.0.right" timestamp="1636710154794">
+    <state width="1877" height="192" key="GridCell.Tab.0.left/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1637136158024" />
+    <state width="1877" height="192" key="GridCell.Tab.0.right" timestamp="1637136158024">
       <screen x="1920" y="-1" width="1920" height="1040" />
     </state>
-    <state width="1860" height="41" key="GridCell.Tab.0.right/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1636710154794" />
-    <state x="2381" y="164" key="SettingsEditor" timestamp="1636640087699">
+    <state width="1877" height="192" key="GridCell.Tab.0.right/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1637136158024" />
+    <state x="2381" y="164" key="SettingsEditor" timestamp="1636712382475">
       <screen x="1920" y="-1" width="1920" height="1040" />
     </state>
-    <state x="2381" y="164" key="SettingsEditor/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1636640087699" />
+    <state x="2381" y="164" key="SettingsEditor/1920.-1.1920.1040/0.0.1920.1040@1920.-1.1920.1040" timestamp="1636712382475" />
     <state x="2543" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1636708965582">
       <screen x="1920" y="-1" width="1920" height="1040" />
     </state>
