@@ -17,8 +17,8 @@ public class WordCount_Reducer extends Reducer<Text, IntWritable,Text,IntWritabl
         sum=0;
         // 统计单词出现的次数
         for (IntWritable count:values ) {
-            // sum+=count.get();
-            sum++;
+            sum+=count.get();
+            // sum++;
         }
         // 输出
         word_Count.set(sum);

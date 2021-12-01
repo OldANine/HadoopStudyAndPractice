@@ -24,12 +24,14 @@ public class WordCount_Driver {
         // 4. 指定Mapper输出的kv数据类型
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(IntWritable.class);
+        //指定Combiner组件
+        job.setCombinerClass(WordCount_Combiner.class);
         // 5. 指定最终输出的kv数据类型
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
         // 6. 指定job处理的原始数据路径与输出结果路径
         FileInputFormat.setInputPaths(job,new Path("D:\\TestFolders\\wordCount\\wc.txt"));
-        FileOutputFormat.setOutputPath(job,new Path("D:\\TestFolders\\output_wc"));
+        FileOutputFormat.setOutputPath(job,new Path("D:\\TestFolders\\output_wc_C")); //  _C
         // 7. 提交作业
         boolean result = job.waitForCompletion(true);
         // 是否正常退出
