@@ -1,4 +1,4 @@
-package com.laojiu.speak;
+package mr.speaker;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -29,7 +29,7 @@ public class SpeakDurationDriver {
         job.setOutputValueClass(SpeakBean.class);
         //文件目录
         FileInputFormat.setInputPaths(job,new Path("D:/TestFolders/SpeakBean"));
-        FileOutputFormat.setOutputPath(job,new Path("D:/TestFolders/output"));
+        FileOutputFormat.setOutputPath(job,new Path("D:/TestFolders/output_speak"));
         boolean result = job.waitForCompletion(true);
         System.exit(result?0:-1);
     }

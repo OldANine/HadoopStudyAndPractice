@@ -1,4 +1,4 @@
-package com.laojiu.speak;
+package mr.speaker;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;

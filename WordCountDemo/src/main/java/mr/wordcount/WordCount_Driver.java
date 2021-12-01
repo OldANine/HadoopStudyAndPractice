@@ -1,4 +1,4 @@
-package WordCount;
+package mr.wordcount;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -28,8 +28,8 @@ public class WordCount_Driver {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
         // 6. 指定job处理的原始数据路径与输出结果路径
-        FileInputFormat.setInputPaths(job,new Path(args[0]/*"D:\\TestFolders\\wc.txt"*/));
-        FileOutputFormat.setOutputPath(job,new Path(args[1]/*"D:\\TestFolders\\wordcount"*/));
+        FileInputFormat.setInputPaths(job,new Path("D:\\TestFolders\\wordCount\\wc.txt"));
+        FileOutputFormat.setOutputPath(job,new Path("D:\\TestFolders\\output_wc"));
         // 7. 提交作业
         boolean result = job.waitForCompletion(true);
         // 是否正常退出
